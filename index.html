@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    <main>
+        <div id="navigation-bar" style = "display:flex; width: 100%;">
+            <ul>
+                <li ><a href="#introduction">About Me</a></li>
+                <li ><a href="#resume">Resume</a></li>
+                <li ><a href="#current_projects">Current Independent Projects</a></li>
+                <li ><a href="#past_projects">Past Projects</a></li>
+                <li ><a href="#personal_interests">Personal Interests</a></li>
+                <li ><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+        <br style= "height:2px;"/>
+        <div id="title" style="background-color: black; color: black; display:flex">
+            <h1 style = "text-align: left; background-color: black; color: white; font-size: 48px;"> Mark Torres </h1>
+            <hr/>
+        </div>
+        <div id="introduction">
+            <h1>About Me</h1>
+            <img class="profile" src="resources/image_self_ysc_retreat_2019.jpg" width="25%", height="full"/>
+            <br>
+            <p> Hi! My name is Mark Torres and I'm a senior at Yale University, 
+            studying Statistics & Data Science. Throughout college, I used statistical
+            methods to better understand social behaviors. For example, my thesis 
+            <a href="resources/mark_torres_final_thesis.pdf" target = "_blank">(see here)</a> used deep learning
+            to understand the spread of information (and misinformation) on social media. I was
+            also involved in additional work, studying, for example, how meditation promotes
+            altruistic behavior <a href="https://www.nature.com/articles/s41598-020-62652-1", target="_blank">
+            (see here)</a>, how neural networks can be leveraged to identify fake Twitter users, 
+            and how AI can be used to understand flaws in people's attention span.</p>
+            <br/>
+        </div>
+        <hr/>
+        <div id="resume">
+            <h2>Resume</h2>
+            <p> Attached is the most recent version of my resume:</p>
+            <ul>
+                <li>
+                    <p class="projects" style ="margin-left: -40px; margin-right: 40px; width: 90%;">Some more recent highlights of my resume include: 
+                        <br> <br> 
+                        1. <span style="font-weight:bold;">Data Science Researcher, Crockett Lab (Yale University)</span>: 
+                        I've been working as a research assistant in the Crockett Lab at Yale University 
+                        (see lab page <a href="http://www.crockettlab.org/">here</a>), where I help study how information 
+                        (and misinformation) spreads in social networks. 
+                        <br><br> 2. <span style="font-weight:bold;">Software Engineer, Groupwise</span>: I've been working 
+                        as a software engineer contrator at Groupwise, a small startup at Yale University that combines technology
+                        and social science to give actionable insights to users. 
+                        <br><br> 3. <span style="font-weight:bold;">Data Science Intern, The D.E. Shaw Group</span>: In the summer
+                        of 2019, I worked as a data science intern (as a member of the generalist intern program) at  
+                        <a href="https://www.deshaw.com/", target="_blank">The D.E. Shaw Group</a>, a global investment and technology
+                        group based in New York, New York. I was a part of the Human Capital Analytics and Reporting (HCAR) group, working
+                        on analyzing applicant and recruitment data and proposing methods to predict which applicants would be successful
+                        in certain stages of the application process. I also worked on standardizing an unstructured corpus of text data that
+                        could be used to improve the team's analyses. I used Python, SQl, and R to extract, wrangle, and analyze the data, and
+                        I presented the results using Tableau dashboards. 
+                    </p>
+                    
+                    <iframe id="resume" src="resources/resume.pdf" width="25%" height="500px" style = "margin-left: 40px;"></iframe>
+
+                </li>
+                
+
+            </ul>
+            
+            </iframe>
+        </div>
+        <hr/>
+        <div id="current_projects">
+            <h2>Current Independent Projects</h2>
+            <p> At the moment, I'm working on the following projects and classes:</p>
+            <ul>
+                <li>
+                    <p class="projects"><span style="font-size: 24px; font-weight: bold;">DrivenData</span><br><br> <a href="https://www.drivendata.org/", target="_blank">DrivenData</a>
+                    is a platform that hosts data science competitions that are relevant for social impact (e.g., poverty, education, conservation, etc.)
+                    <br><br> I am currently working on a competition where the goal is to predict whether people got the H1N1 and seasonal
+                    flu vaccines, in 2009, based off information from the National 2009 H1N1 Flu Survey (NHFS). It was a one-time survey conducted
+                    in response to the 2009 H1N1 pandemic, in order to see how willing people were to take both the then-newly synthesized H1N1 vaccine
+                    and the seasonal flu vaccine. 
+                    <br><br> Track my progress from my <a href="https://github.com/mark-torres10/flu_shot_learning", target="_blank">Github</a> repo 
+                    for this project.</p>
+                    <img class="image" src="resources/drivendata_image.png"/>
+                </li>
+                <br>
+                <br>
+                <li>
+                    <p class="projects"><span style="font-size: 24px; font-weight: bold;">Codecademy</span><br><br> <a href="https://www.codecademy.com/" target="_blank">
+                    Codecademy</a> is a platform that hosts many interactive tutorials for teaching people how to code. I am currently working on learning the basics of 
+                    web development through their "Web Development Track". <br><br>I previously finished their 200-hour "Computer Science" track, 
+                    in Python, which was a great introduction to both Python programming (it filled some gaps in my understanding of Python) as well
+                    as computer science (where I strengthened my understanding of concepts such as OOP, recursion, data structures, and algorithms). 
+                    <br><br> In addition to these tracks, I also took courses on Codecademy to both learn the basics of Git and C++ and develop my skills in SQL.</p>
+                    <img class="image" src="resources/codecademy.png"/>
+                </li>
+                <br>
+                <br>
+                <li>
+                    <p class="projects"><span style="font-size: 24px; font-weight: bold;">Educative</span><br><br> <a href="https://www.educative.io/", target="_blank">Educative</a> 
+                    is a platform that hosts a variety of software engineering and development classes. <br><br> On this platform, I'm currently working on
+                    the <span style="font-weight:bold;">"Becoming a Machine Learning Engineer" </span>track, which reviews a variety of deep learning architectures and details how they
+                    can be used to solve problems in prediction, image classification, text analysis, and other use cases.</p>
+                    <img class="image" src="resources/educative_photo.png"/>
+                </li>
+            </ul>
+        </div>
+        <hr/>
+        <div id="past_projects">
+            <h2>Past Projects</h2>
+            <p> Development in progress </p>
+        </div>
+        <hr/>
+        <div id="personal_interests">
+            <h2>Personal Interests</h2>
+            <p> Development in progress </p>
+        </div>
+        <hr/>
+        <footer id="contact"> 
+            <br>
+            <h2>Contact</h2>
+            <p>Feel free to reach out! I can be reached via the following platforms:</p>
+            <ul>
+                <li id="icon">
+                    <a href="https://www.linkedin.com/in/mark-p-torres/"><img class="icon" src="resources/linkedin_icon.jpeg" target="_blank"></a>
+                    <a href="https://github.com/mark-torres10"><img class="icon" src="resources/github_icon.svg" target="_blank"></a>
+                    <a href="mailto:mark.torres@aya.yale.edu"><img class="icon" src="resources/email.png" target="_blank"></a>
+                </li>
+            </ul>
+        </footer>
+        
+    </main>
+</html>

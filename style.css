@@ -1,0 +1,126 @@
+main {
+    background-image: url("resources/background_image.jpg");
+    background-size: cover;
+}
+
+#navigation-bar ul {
+    list-style-type: none;
+    margin: 0 10px;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+#navigation-bar ul li {
+    float: left; 
+}
+
+#navigation-bar ul a {
+    display: block;
+    color: white;
+    padding: 8px;
+    background-color: #3f3939;
+    font-weight: bold; 
+    margin: 0px 5px; 
+    border: 1px solid black;
+}
+
+#navigation-bar ul li a:hover {
+    background-color: #111;
+}
+
+h2, p {
+    text-align: center;
+}
+h1 {
+    font-weight: bold; 
+    text-align: center;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    /*border-top: 5px solid #ccc;*/
+    border-top: 5px solid #3f3939;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.profile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 75%; 
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 25%;
+}
+
+.image:hover {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+#image {
+    height: 200px; 
+    width: 200px;
+    border-radius: 200px;
+}
+
+#resume {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+
+.projects {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: left;
+    
+}
+
+footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    list-style: none;
+}
+
+
+li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    height: auto; 
+    width: auto;
+    inline-size: 50px;
+    display: inline-block;
+    padding: 5px;
+}
